@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web : gunicorn dineshtechservice.wsgi --log-file -
+web: gunicorn DTechService.wsgi --log-file -
